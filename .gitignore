@@ -1,0 +1,60 @@
+# 小程序
+deploy_versions/
+.temp/
+.rn_temp/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+
+# production
+/dist
+/dist_alipay
+/build
+
+# misc
+.DS_Store
+*.pem
+/.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# eslint
+.eslintcache
+
+# stylelint
+.stylelintcache
+
+# package
+package-lock.json
+yarn.lock
+
+# husky
+.husky
+
+# 本地编译环境变量
+env.json
+# 微信本地配置文件 env.json wxPrivateConfig
+project.private.config.json
+# 支付宝本地配置文件 env.json alipayMinConfig
+mini.project.json
